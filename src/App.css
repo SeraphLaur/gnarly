@@ -1,38 +1,182 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "AkiraExpandedSuperBold";
+  src: url("./font/Akira Expanded Super Bold/Akira Expanded Super Bold.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "Tondu Beta";
+  src: url("./font/tondu/Tondu_Beta.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #000;
+  background-color: #ffd500;
+  background-repeat: repeat;
+  overflow-y: scroll;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  font-family: Futura BookRegular, Helvetica, Helvetica Neue, Arial,
+    Lucida Grande, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header {
+  background-color: #ffd500;
+}
+
+.header img {
+  width: 17 rem;
+  aspect-ratio: 2.8;
+  align-self: start;
+  margin-left: 30px;
+}
+
+.header div {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+  gap: 0.8rem;
+  padding: 0.4rem 0;
+}
+.menuOptions {
+  font-family: "AkiraExpandedSuperBold", sans-serif;
+  font-size: 17px;
+}
+
+.search {
+  position: absolute;
+  right: 110px;
+  align-self: center;
+}
+
+.search img {
+  width: 2.8rem;
+  aspect-ratio: 1;
+}
+
+.basket {
+  position: absolute;
+  right: 32px;
+  align-self: center;
+}
+
+.basket img {
+  width: 2.8rem;
+  aspect-ratio: 1;
+}
+
+.card-color {
+  background-color: #000;
+}
+
+.card-title-font {
+  font-family: "Tondu Beta", sans-serif;
+  font-size: 25px;
+}
+
+.card-title-price {
+  font-family: "Tondu Beta", sans-serif;
+  color: #ffd500;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.card-title-orig {
+  font-family: "Tondu Beta", sans-serif;
+  color: #ffd500;
+  font-size: 25px;
+  opacity: 0.5;
+}
+
+.card-img-sold {
+  opacity: 0.3;
+}
+
+.card-sold {
+  font-family: "Tondu Beta", sans-serif;
   color: white;
+  background-color: #ff6800;
+  font-size: 25px;
+  padding: 10px;
+  margin-right: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #000;
+  background: #ffd500;
+  background-repeat: repeat;
+  overflow-y: scroll;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.blacknavbar {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  height: 70px;
+}
+
+.footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  height: 400px;
+}
+.faq {
+  padding-left: 200px;
+}
+
+.banner {
+  width: 100%;
+  display: block;
+}
+
+.footer-font {
+  font-family: "AkiraExpandedSuperBold", sans-serif;
+}
+.footer h4 {
+  margin-bottom: 25px;
+}
+
+body {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #000;
+  background: #ffd500;
+  background-repeat: repeat;
+  overflow-y: scroll;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  font-family: FuturaBookRegular, Helvetica, Helvetica Neue, Arial,
+    Lucida Grande, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+::selection {
+  background: #000;
+  color: #ffd500;
 }
