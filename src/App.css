@@ -180,3 +180,7 @@ body {
   background: #000;
   color: #ffd500;
 }
+
+.card-body.hovered {
+  box-shadow: 5px 5px 40px rgba(0, 0, 0, 20);
+}
